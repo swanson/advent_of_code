@@ -2,27 +2,6 @@ file = File.open("day03/input.txt")
 lines = file.read.split("\n")
 
 class Claim < Struct.new(:id, :x, :y, :w, :h, :intact)
-  def overlaps?(idx)
-    cells.include? idx
-  end
-
-  def cells
-    @cells ||= build_cells
-  end
-
-  def build_cells
-    all = []
-    (0..w-1).each do |dx|
-      (0..h-1).each do |dy|
-        all << convert_coords(x + dx, y + dy)
-      end
-    end
-    all
-  end
-
-  def convert_coords(x, y)
-    x * 1000 + y
-  end
 end
 
 claims = []
