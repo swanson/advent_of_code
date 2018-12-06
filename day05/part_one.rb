@@ -2,29 +2,28 @@ polymer = File.open("day05/input.txt").read
 
 # polymer = "dabAcCaCBAcCcaDA"
 
+units = polymer.chars
 c = 0
-
 while true
   actions = 0
-  puts polymer.length, c
+  puts units.length, c
 
-  new_polymer = []
+  u = units.shift
+  new_polymer = [u]
 
-  polymer.chars.each_with_index do |unit, idx|
-    break if idx == polymer.length - 1
-
-    next_unit = polymer.chars[idx + 1]
-    if next_unit.swapcase == new_polymer.last
-      actions += 1
+  while units.any?
+    u = units.shift
+    if u.swapcase == new_polymer.last
       new_polymer.pop
+      actions += 1
     else
-      new_polymer << unit
+      new_polymer << u
     end
   end
 
-  polymer = new_polymer.join
+  units = new_polymer
 
   break if actions == 0
 end
 
-puts polymer, polymer.length
+puts units.join, units.length
