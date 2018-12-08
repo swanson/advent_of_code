@@ -1,0 +1,83 @@
+[#<Step:0x007fa60c115120 @name="A", @pre=["W", "S", "P"], @work=61>, #<Step:0x007fa60c115788 @name="B", @pre=["K"], @work=62>, #<Step:0x007fa60c1152b0 @name="C", @pre=["O", "H"], @work=63>, #<Step:0x007fa60c115238 @name="D", @pre=["R", "S", "I", "B"], @work=64>, #<Step:0x007fa60c115878 @name="E", @pre=["H", "Z", "D", "W", "P", "G", "R"], @work=65>, #<Step:0x007fa60c114e00 @name="F", @pre=["A", "B", "S", "E"], @work=66>, #<Step:0x007fa60c1155f8 @name="G", @pre=["N", "C", "A", "H", "I", "R"], @work=67>, #<Step:0x007fa60c1158f0 @name="H", @pre=["P"], @work=68>, #<Step:0x007fa60c115530 @name="I", @pre=["W", "C", "S"], @work=69>, #<Step:0x007fa60c115f30 @name="J", @pre=["V", "A", "X", "Y", "D", "P", "T", "S", "I", "C"], @work=70>, #<Step:0x007fa60c115da0 @name="K", @pre=["O"], @work=71>, #<Step:0x007fa60c1154b8 @name="L", @pre=["N", "O"], @work=72>, #<Step:0x007fa60c115030 @name="M", @pre=["W", "O", "Z", "H", "P", "A"], @work=73>, #<Step:0x007fa60c115670 @name="N", @pre=["K"], @work=74>, #<Step:0x007fa60c115e18 @name="O", @pre=[], @work=75>, #<Step:0x007fa60c116160 @name="P", @pre=[], @work=76>, #<Step:0x007fa60c115328 @name="Q", @pre=["U", "I", "T", "J", "Y", "S", "E", "F", "X", "L"], @work=77>, #<Step:0x007fa60c1160e8 @name="R", @pre=["P", "W", "H", "V"], @work=78>, #<Step:0x007fa60c115c88 @name="S", @pre=["O"], @work=79>, #<Step:0x007fa60c114f40 @name="T", @pre=["M", "F", "A", "B", "W", "G", "D", "K", "P", "X", "E", "Y"], @work=80>, #<Step:0x007fa60c1153a0 @name="U", @pre=["H", "N", "W"], @work=81>, #<Step:0x007fa60c116020 @name="V", @pre=[], @work=82>, #<Step:0x007fa60c115af8 @name="W", @pre=["S", "V", "B", "H"], @work=83>, #<Step:0x007fa60c114ea0 @name="X", @pre=["E", "S", "P", "R", "I", "F"], @work=84>, #<Step:0x007fa60c115800 @name="Y", @pre=["K", "L", "G", "E", "V", "F", "S", "X"], @work=85>, #<Step:0x007fa60c1156e8 @name="Z", @pre=["B", "R"], @work=86>]
+Step ready: O
+Worker 0 starting job
+Step ready: P
+Worker 1 starting job
+Step ready: V
+Worker 2 starting job
+Worker 0 finished: O, Tick: 74
+Step ready: K
+Worker 0 starting job
+Step ready: S
+Worker 3 starting job
+Worker 1 finished: P, Tick: 75
+Step ready: H
+Worker 1 starting job
+Worker 2 finished: V, Tick: 81
+Worker 1 finished: H, Tick: 143
+Step ready: C
+Worker 1 starting job
+Worker 0 finished: K, Tick: 145
+Step ready: B
+Worker 0 starting job
+Step ready: N
+Worker 2 starting job
+Worker 3 finished: S, Tick: 153
+Worker 1 finished: C, Tick: 206
+Worker 0 finished: B, Tick: 207
+Step ready: W
+Worker 0 starting job
+Worker 2 finished: N, Tick: 219
+Step ready: L
+Worker 1 starting job
+Worker 0 finished: W, Tick: 290
+Step ready: A
+Worker 0 starting job
+Step ready: I
+Worker 2 starting job
+Step ready: R
+Worker 3 starting job
+Step ready: U
+Worker 4 starting job
+Worker 1 finished: L, Tick: 291
+Worker 0 finished: A, Tick: 351
+Worker 2 finished: I, Tick: 359
+Worker 3 finished: R, Tick: 368
+Step ready: D
+Worker 0 starting job
+Step ready: G
+Worker 1 starting job
+Step ready: Z
+Worker 2 starting job
+Worker 4 finished: U, Tick: 371
+Worker 0 finished: D, Tick: 432
+Worker 1 finished: G, Tick: 435
+Worker 2 finished: Z, Tick: 454
+Step ready: E
+Worker 0 starting job
+Step ready: M
+Worker 1 starting job
+Worker 0 finished: E, Tick: 519
+Step ready: F
+Worker 0 starting job
+Worker 1 finished: M, Tick: 527
+Worker 0 finished: F, Tick: 585
+Step ready: X
+Worker 0 starting job
+Worker 0 finished: X, Tick: 669
+Step ready: Y
+Worker 0 starting job
+Worker 0 finished: Y, Tick: 754
+Step ready: T
+Worker 0 starting job
+Worker 0 finished: T, Tick: 834
+Step ready: J
+Worker 0 starting job
+Worker 0 finished: J, Tick: 904
+Step ready: Q
+Worker 0 starting job
+Worker 0 finished: Q, Tick: 981
+OPVHKSCBNWLAIRUDGZEMFXYTJQ
+
+
+Total: 982
