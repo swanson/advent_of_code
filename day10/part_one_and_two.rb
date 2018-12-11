@@ -35,8 +35,6 @@ while true do
   time += 1
 end
 
-puts close_time
-
 max_x = points.max_by{|p| p.pos_x}.pos_x
 min_x = points.min_by{|p| p.pos_x}.pos_x
 max_y = points.max_by{|p| p.pos_y}.pos_y
