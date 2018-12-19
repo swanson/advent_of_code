@@ -265,5 +265,3 @@ end
 
 puts "Answer - Part B: #{registers.first}"
 raise unless registers.first == 649
-
-  
